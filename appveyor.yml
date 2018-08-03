@@ -6,7 +6,3 @@ environment:
 build: off
 install:
   - java -version
-cache:
-  - C:\Users\appveyor\.m2
-  - C:\Downloads
-  
