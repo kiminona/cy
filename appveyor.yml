@@ -5,7 +5,7 @@ environment:
     DOWNLOAD_PATH: C:\Downloads\
     CATALINA_HOME: C:\projects\apache-tomcat-8.0.36
 install:
-  - SET PATH=%JAVA_HOME%\bin;%PATH%
+  - java -version
 cache:
   - C:\Users\appveyor\.m2
   - C:\Downloads
