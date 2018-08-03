@@ -5,6 +5,7 @@ environment:
     CATALINA_HOME: C:\projects\apache-tomcat-8.0.36
 services:
   - mysql
+  - postgresql
 build: off
 install:
   - java -version
