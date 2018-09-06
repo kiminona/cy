@@ -15,6 +15,7 @@ before_script:
 
 script:
   - cd iPLAss
+  - chmod u+x ./gradlew
   - ./gradlew build
 
 after_success:
