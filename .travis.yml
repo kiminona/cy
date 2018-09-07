@@ -25,7 +25,6 @@ script:
   # - chmod u+x ./gradlew
   # - ./gradlew --version
   # - ./gradlew wrapper --gradle-version 4.2.1
-  - rm -rf ./gradle/ ./gradlew ./gradlew.bat
   - which gradle
   - gradle --version
   - gradle build --stacktrace
