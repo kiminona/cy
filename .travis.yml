@@ -23,6 +23,8 @@ script:
   # wrapper too old. using the global
   - curl https://gist.githubusercontent.com/kiminona/19d9feff1f7627845b38f92f404ee499/raw/c8ed8b13df23bac79853c80dd90ef2ac0f3cf295/gradle.properties -O gradle.properties
   - chmod u+x ./gradlew
+  - ./gradlew --version
+  - ./gradlew wrapper --gradle-version 4.2.1
   - ./gradlew build --stacktrace
   # - gradle build
 
