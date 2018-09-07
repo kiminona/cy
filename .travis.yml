@@ -2,10 +2,10 @@ dist: trusty
 language: java
 jdk:
   # - oraclejdk8
-  - openjdk7
+  # - openjdk7
   - oraclejdk9
-  - oraclejdk10
-  - oraclejdk11
+  # - oraclejdk10
+  # - oraclejdk11
   
 env:
   - TOMCAT_VERSION=8.5.32
@@ -25,8 +25,8 @@ script:
   # - chmod u+x ./gradlew
   # - ./gradlew --version
   # - ./gradlew wrapper --gradle-version 4.2.1
-  - ./gradle --version
-  - ./gradle build --stacktrace
+  - gradle --version
+  - gradle build --stacktrace
   # - gradle build
 
 after_success:
