@@ -22,7 +22,7 @@ script:
   - cd ../..
   - chmod u+x ./gradlew
   - ./gradlew --version
-  - ./gradlew build --debug
+  - ./gradlew build --stacktrace
 
 after_success:
   - echo "success"
