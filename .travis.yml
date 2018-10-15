@@ -12,7 +12,7 @@ env:
 
 before_script:
   - echo "before_script..."
-  - git clone https://github.com/kiminona/iPLAss
+  - git clone https://github.com/ISID/iPLAss
 
 script:
   - cd iPLAss
